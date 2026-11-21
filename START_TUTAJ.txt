@@ -1,0 +1,25 @@
+MÓJ WARSZTAT — WERSJA PRODUKCYJNA DO WDROŻENIA
+
+TO NIE JEST JESZCZE PUBLICZNY ADRES APLIKACJI.
+
+Dla Ciebie (administratora):
+1. Przeczytaj WDROZENIE_KROK_PO_KROKU.md.
+2. Uruchom nowy projekt Supabase i wykonaj migrację SQL.
+3. Wypełnij PUBLICZNYMI danymi projektu plik public/config.js.
+4. Opublikuj katalog public na GitHub Pages, korzystając z dołączonego workflow.
+5. Dopiero po testach bezpieczeństwa wyślij koledze adres HTTPS, nie ZIP.
+
+Dla kolegi (właściciela):
+- Otrzymuje opublikowany adres aplikacji.
+- Zakłada swoje konto i tworzy warsztat.
+- W ustawieniach zaprasza Cię na Twój e-mail jako administratora.
+- Sam łączy własny Google Calendar na swoim telefonie.
+
+Aplikacja nie zawiera faktur ani KSeF.
+Google Calendar: ręczny odczyt i wysyłanie pojedynczych wizyt, bez stałej dwustronnej synchronizacji w tle.
+Telefon: PWA po HTTPS i eksport .ics; telefon nie jest automatycznie „parowany” po otwarciu pliku.
+SMS: włączany dopiero po podłączeniu SMSAPI do funkcji serwerowej.
+Dostawcy części: na razie CSV; rzeczywista integracja API wymaga zgody i dostępów hurtowni.
+
+BRAKUJE: prawdziwych kluczy/configu Supabase, ustawienia Google OAuth, domeny GitHub Pages oraz testu wdrożenia.
+Nie wpisuj prawdziwych danych klientów przed zakończeniem konfiguracji i weryfikacji RLS.

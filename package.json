@@ -1,0 +1,8 @@
+{
+  "name": "moj-warsztat-pwa",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"test":"node --test tests/*.test.mjs", "check":"node --check public/app.js && node --check public/helpers.js"},
+  "description": "PWA for automotive workshop with Supabase backend and GitHub Pages publishing"
+}
